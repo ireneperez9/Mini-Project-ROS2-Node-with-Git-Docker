@@ -33,7 +33,7 @@ private:
     rclcpp::TimerBase::SharedPtr timer_;
 };
 
-//
+////Start ROS2 → create node → keep it running → stop ROS2
 int main(int argc, char *argv[])
 {
     rclcpp::init(argc, argv);
